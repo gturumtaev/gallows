@@ -1,5 +1,3 @@
-package java.cool;
-
 import java.util.ArrayList;
 import java.util.List;
 

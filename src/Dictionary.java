@@ -1,5 +1,3 @@
-package java.cool;
-
 import java.util.List;
 
 public class Dictionary {
@@ -8,7 +6,6 @@ public class Dictionary {
     public Dictionary(FileReader fileReader) {
         this.DICTIONARY = fileReader.readFile();
     }
-
 
     public String getWord(int index) {
         return DICTIONARY.get(index);

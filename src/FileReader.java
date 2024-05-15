@@ -1,5 +1,3 @@
-package java.cool;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -13,7 +11,7 @@ public class FileReader  {
 
         List<String> words = null;
         try {
-            InputStream resource = Main.class.getClassLoader().getResourceAsStream("words.txt");
+            InputStream resource = Main.class.getClassLoader().getResourceAsStream("resources/words.txt");
             BufferedReader br = new BufferedReader(new InputStreamReader(resource, StandardCharsets.UTF_8));
 
             StringBuilder sb = new StringBuilder();
